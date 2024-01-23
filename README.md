@@ -41,6 +41,7 @@ docker run -d -p 8080:80 --name startpage-container startpage
 
 ## Folder Structure 📁
 
+```
 startpage/
 │
 ├── frontpage/
@@ -69,6 +70,7 @@ startpage/
 ├── Dockerfile
 ├── ss.png
 └── README.md
+```
 
 ## Customize ⚙️
 
