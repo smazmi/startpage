@@ -27,11 +27,11 @@ To deploy this startpage, follow these steps:
 ## Run the Docker Container 📦
 
 ```bash
-docker run -d -p 8080:80 --name startpage-container startpage
+docker run -d -p 8080:80 --name startpage startpage
 ```
 
 - Replace **8080** with the desired port number.
-- Open your browser and navigate to http://localhost:8080 (or the chosen port)
+- Open your browser and navigate to http://localhost:8080 (or the chosen port).
 
 ## Manual Deployment 🔧
 
