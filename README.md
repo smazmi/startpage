@@ -21,6 +21,8 @@ To deploy this startpage, follow these steps:
 2. Build the Docker image using the provided Dockerfile:
 
    ```bash
+   git clone https://github.com/smazmi/startpage
+   cd startpage/
    docker build -t startpage .
    ```
 
