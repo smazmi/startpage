@@ -44,34 +44,25 @@ docker run -d -p 8080:80 --name startpage --restart unless-stopped startpage
 ## Folder Structure 📁
 
 ```
-startpage/
-│
-├── frontpage/
-│   └── index.html
-│
-├── src/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   ├── date.js
-│   │   └── theme.js
-│   ├── fonts/
-│   │   ├── SpaceMonoNF.woff
-│   │   └── SpaceMonoNF.woff2
-│   └── images/
-│       ├── cover1.webp
-│       ├── cover2.webp
-│       └── cover3.webp
-│
-├── usr/
-│   └── share/
-│       └── nginx/
-│           └── html/
-│               └── src/
-│
-├── Dockerfile
-├── ss.png
-└── README.md
+ .
+├──  arno
+│  └──  index.html
+├──  Dockerfile
+├──  README.md
+├──  src
+│  ├──  css
+│  │  └──  style.css
+│  ├──  fonts
+│  │  ├──  SpaceMonoNF.woff
+│  │  └──  SpaceMonoNF.woff2
+│  ├──  images
+│  │  ├──  cover1.webp
+│  │  ├──  cover2.webp
+│  │  └──  cover3.webp
+│  └──  js
+│     ├──  date.js
+│     └──  theme.js
+└──  ss.png
 ```
 
 ## Customize ⚙️
